@@ -1,0 +1,13 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+.venv\Scripts\Activate.ps1
+python main.py
+
+
+http://127.0.0.1:8000/docs
+
+uvicorn api:app --reload
+
+
+
+https://waste-api-service-1035162636962.europe-west1.run.app/docs #fastapi
+https://waste-api-service-1035162636962.europe-west1.run.app
